@@ -1,0 +1,290 @@
+body { 
+    font-size: 24% ;
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center; /* hace que la lista del menu se vaya al medio*/
+    background-color: rgb(244, 247, 249);
+    
+}
+
+header {
+    background-color:  rgb(244, 247, 249);
+    padding: 0px
+
+
+}
+
+#carouselExampleAutoplaying{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.Orden{
+    display: flex;
+    text-align: center;
+    justify-content: center; /*para que se vaya al centroo*/
+}
+#logo{
+    margin-top: 25px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+header h1{ 
+    font-family:'Poppins', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(54, 95, 128);
+ }
+
+nav {
+    background-color: rgb(48, 67, 95);
+}
+
+nav ul{
+    list-style: none; /*se sacan los puntos del listado*/
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+nav ul li { 
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 239, 246);
+} 
+a:hover{ /* cambia el color del texto cuando pasa el ratón*/
+color: rgb(162, 192, 228); 
+}
+
+a:active {
+    color: rgb(162, 192, 228);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px black;
+    color: white;
+   
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(51, 74, 110);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+h5{
+    text-align: center;
+    margin-top: 7px;
+}
+h5:hover{
+    color: rgb(55, 89, 144);
+}
+h5:active{
+    color: rgb(55, 89, 144);
+}
+.Novedades{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro1{
+    padding: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+
+.Novedades2{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+
+}
+.Libro2{
+    padding: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades3{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro3{
+    padding: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades4{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro4{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+
+.Novedades5{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro5{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 3px;
+    padding-top: 4px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades6{
+    padding: 34px;
+    padding-right: 3px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.Libro6{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades7{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro7{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades8{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro8{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades9{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro9{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.Novedades10{
+    padding: 34px;
+    padding-right: 3px;
+    display: inline-block;
+}
+.Libro10{
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    border: 1px solid rgb(120, 106, 109);
+    border-radius: 0.7em;
+    box-shadow: 0 4px 8px 0 rgb(181, 179, 180), 0px 6px 15px 0 rgb(161, 161, 161);
+}
+.img-1{
+    width:197px;
+    height:270px;
+}
+.img-2{
+    width:190px;
+    height:245px;
+}
+.img-3{
+    width: 200px;
+    height: 246px;
+}
+.img-4{
+    width: 200px;
+    height: 245px;
+}
+.img-5{
+   width: 210px;
+   height: 265px;
+}
+.img-6{
+    width: 189px;
+    height: 270px;
+}
+.img-7{
+    width: 195px;
+    height: 270px;
+}
+.img-8{
+    width: 190px;
+    height: 245px;
+}
+.img-9{
+    width: 197px;
+    height: 244px;
+}
+
+.img-10{
+    width: 200px;
+    height: 268px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+}
