@@ -9,52 +9,86 @@
     <link rel="stylesheet" href="style.css">
     <title>My bookstore</title>
 </head>
-<body>
-    <div class="Inicio">
-    <header>
-        <div class="Orden">
-            <h1 class="Titulo">My bookstore</h1>
-            <img src="Imagenes/logo.png" width="70" height="75" alt="logo" id="logo">
-        </div>
-    </header>
+    <body>
+        <header>
+            <div class="Orden">
+              <h1 class="Titulo">My bookstore</h1>
+              <img src="Imagenes/logo.png" width="70" height="75" alt="logo" id="logo">   
+               <div class="buscar"> 
+                 <input type="text" placeholder="buscar">
+               </div> 
+                <div class="logitos">
+                 <a href="Inicia sesion.html"><img src= "Imagenes/inicia sesion logo.png" alt="Registro" id="iniciasesionlogo"></a> 
+               <img src="Imagenes/carrito logo.png" alt="carro" id="carrito">
+               </div>
+            </div>
+        </header>
             <nav class="menu">
                 <ul>
                     <li><a href="index.html">INICIO</a></li>
                     <li><a href="Libros.html">LIBROS</a></li>
                     <li><a href="Mangas.html">MANGAS</a></li>
                     <li><a href="Top 20.html">TOP 20</a></li>
-                </ul>
+                </ul> 
             </nav>
-            <h1>Libros</h1>
-            <h2>Fantasia</h2>
-            <div class="Fantasia">
-            <div class="LibroFantasia1">
-                <img class="img-fantasia1" src="Imagenes/percy jackson.png" alt="Percy jackson">
-                <h5>Percy Jackson y <br> el ladrón del rayo</h5>
-                <p>6.199,00</p>
-            </div>
-        </div>
-            <div class="Fantasia2">
-                <div class="Librofantasia2">
-                    <img class="img-fantasia2" src="Imagenes/harry potter y la piedra filosofal.jpg" alt="Harry potter">
-                    <h5>Harry Potter y <br> la piedra filosofal</h5>
-                    <p>$5.799,00</p>
-                </div>
-            </div>
-            <div class="Fantasia3">
-                <div class="Librofantasia3">
-                    <img class="img-fantasia3" src="Imagenes/hopendath.png" alt="Hopendath">
-                    <h5>Hopendath</h5>
-                    <p>$7.000,00</p>
-                </div>
-            </div>
-            <div class="Fantasia4">
-                <div class="Librofantasia4">
-                    <img class="img-fantasia4" src="Imagenes/cazadores de sombras los origenes.jpg" alt="cazadores de sombras los origenes">
-                    <h5>Ángel mecánico</h5>
-                    <p>$5.100,00</p>
-                </div>
-            </div>
+            <section class="Libros container">
+                <h1>Libros</h1>
+                   <h2>Fantasia</h2>
+                   <!-- <div class="Box-container-1"> -->
+                       <div class="FantasiaPadre">
+                        <div class="Fantasia">
+                           <img class="img-fantasia1" src="./Imagenes/percy jackson.png" alt="Percy jackson">
+                           <h5>Percy Jackson y <br> el ladrón del rayo</h5>
+                           <p>6.199,00</p>
+                       </div>
+                           <div class="Fantasia">
+                                <img class="img-fantasia2" src="Imagenes/harry potter y la piedra filosofal.jpg" alt="Harry potter">
+                                   <h5>Harry Potter y <br> la piedra filosofal</h5>
+                                   <p>$5.799,00</p>
+                           </div>
+                           <div class="Fantasia">
+                                <img class="img-fantasia3" src="Imagenes/hopendath.png" alt="Hopendath">
+                                   <h5>Hopendath</h5>
+                                   <p>$7.000,00</p>
+                           </div>
+                           <div class="Fantasia">
+                               <img class="img-fantasia4" src="Imagenes/cazadores de sombras los origenes.jpg" alt="cazadores de sombras los origenes">
+                                   <h5>Ángel mecánico</h5>
+                                   <p>$5.100,00</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="load-more" id="load-more-1">Cargar más</div>
+            </section>
+            <section class="Libros container">
+                   <h2>Romance</h2>
+                   <!-- <div class="Box-container-2"> -->
+                       <div class="RomancePadre">
+                        <div class="Romance">
+                           <img class="img-romance1" src="Imagenes/a traves de mi ventana.jpg" alt="A través de mi ventana">
+                           <h5> A través de mi ventana</h5>
+                           <p>6.199,00</p>
+                       </div>
+                           <div class="Romance">
+                                <img class="img-romance2" src="Imagenes/the love hypothesis.jpg" alt="The love hypotesis">
+                                   <h5>The love hypotesis</h5>
+                                   <p>$5.799,00</p>
+                           </div>
+                           <div class="Romance">
+                                <img class="img-romance3" src="Imagenes/marfil.png" alt="Marfil">
+                                   <h5>Marfil</h5>
+                                   <p>$7.899,00</p>
+                           </div>
+                           <div class="Romance">
+                               <img class="img-romance4" src="Imagenes/dimelo bajito.jpg" alt="Dimelo bajito">
+                                   <h5>Dimelo bajito</h5>
+                                   <p>$7.899,00</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="load-more" id="load-more-2">Cargar más</div>
+            </section>
+
 
 
 
