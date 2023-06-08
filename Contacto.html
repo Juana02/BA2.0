@@ -17,9 +17,7 @@
           <h1>My bookstore</h1>
           <img src="Img/logo.png" width="60" height="65" alt="logo" id="logo">
           <div class="buscar">
-            </a>
-            <input type="text" id="searchInput" placeholder="Buscar...">
-            <div id="searchResults"></div>
+            <input type="text" placeholder="Buscar">
           </div>
           <div class="contenedor">
             <a href="Inicia sesion.html">
@@ -42,69 +40,31 @@
       </div>
     </div>
   </header>
-  <article class="Carrusel-container">
-    <div class="slider-container">
-      <section class="content-slider">
-        <img src="Img/Bridgerton.png" alt="banner1">
-      </section>
-      <section class="content-slider">
-        <img src="Img/El verano.png" alt="banner2">
-      </section>
-      <section class="content-slider">
-        <img src="Img/Hearstopper.png" alt="banner3">
-      </section>
-      <section class="content-slider">
-        <img src="Img/ariana godoy.png" alt="banner4">
-      </section>
+  <div class="container-form">
+    <div class="formulariodecontacto">
+      <h2>Contáctanos</h2>
+      <p>Para reserva de libros, pedidos especiales o para ser parte del equipo podes contactarnos en las
+        siguientes redes o llenar el formulario y recorda revisar la casilla de mensajes de tu gmail para nuestra
+        respuesta.
+        Recomendamos verificar la sección de spam. </p>
+      <a href="#"><i class="fa-solid fa-phone-flip" style="color: #334a6e;"></i> 123-456-789</a>
+      <a href="#"><i class="fa-solid fa-envelope" style="color: #334a6e;"></i> Mybookstore@gmail.com</a>
+      <a href="#"><i class="fa-brands fa-whatsapp" style="color: #334a6e;"></i> 11 345676</a>
     </div>
-  </article>
-  <section>
-    <div class="Videoferiadellibro">
-      <h2 class="titulo2">
-        My bookstore - Feria del libro!
-      </h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/CONxUokE8rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="form">
+      <input type="text" placeholder="Tu nombre" id="Nombre">
+      <input type="text" placeholder="Email" id="Email">
+      <input type="text" placeholder="Mensaje" id="Mensaje">
+      <button class="Enviar" type="submit">Enviar</button>
     </div>
-    <div class="Novedades-container">
-      <h2 class="titulo2">Novedades!</h1>
-        <br>
-        <div class="NovedadesPadre">
-          <div class="Libro">
-            <img src="Img/the love hypothesis.jpg" width="190" height="245" alt="The love hypothesis">
-            <h5>The love hypotesis</h5>
-            <p>$4.950,00</p>
-          </div>
-          <div class="Libro">
-            <img src="Img/La casita.png" width="180" height="245" alt="La casa en el mar más azul">
-            <h5>La casa en el <br> mar más azul</h5>
-            <p>$8.100,00</p>
-          </div>
-          <div class="Libro">
-            <img src="Img/boulevard.jpg" width="180" height="246" alt="Boulevard">
-            <h5>Boulevard <br>Ilustrado </h5>
-            <p>$11.999,00</p>
-          </div>
-          <div class="Libro">
-            <img src="Img/cazadores de sombra.jpg" width="190" height="245" alt="Cazadores de sombras">
-            <h5>La Reina del aire y <br> la oscuridad</h5>
-            <p>$7.000,00</p>
-          </div>
-          <div class="Libro">
-            <img src="Img/ao no flag tomo 8.jpg" width="190" height="245" Ao no flag">
-            <h5>Ao no flag tomo 8</h5>
-            <p>$2.000,00</p>
-          </div>
-          <div class="Libro">
-            <img src="Img/almendra.webp" width="176" height="245" alt="Almendra">
-            <h5>Almendra</h5>
-            <p>$4.190,00</p>
-          </div>
-        </div>
-    </div>
-  </section>
-
-  </main>
-
+  </div>
+  <div class="ubicación">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3235595212773!2d-58.39680342452505!3d-34.59597885708911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabdfc191295%3A0x8110084c679e64c0!2sEl%20Ateneo%20Grand%20Splendid!5e0!3m2!1ses!2sar!4v1685470511327!5m2!1ses!2sar"
+      width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
   <footer class="Footer">
     <div class="Container-footer">
       <div class="footer-menu">
@@ -157,7 +117,7 @@
         <div class="suscripción">
           <p class="Titulo-suscribite">Boletin Informativo</p>
           <div class="content">
-            <p> Suscríbete a nuestros boletines ahora y mantente al día con nuevas colecciones y ofertas exclusivas.
+            <p> Suscríbete a nuestros boletines ahora y mantente al día  con nuevas colecciones y ofertas exclusivas.
             </p>
             <input type="email" placeholder="Ingresa tu gmail..." id="emailcaja">
             <button id="Suscribite">Suscribite</button>
@@ -165,7 +125,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>Desarrollado por Juana Ortega © 2023 </p>
+      <p>Desarrollado por Juana Ortega © 2023 </p>
       </div>
     </div>
   </footer>

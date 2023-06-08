@@ -1,33 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>My bookstore</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <title>My bookstore</title>
 </head>
+
 <body>
-    <header>
-        <div class="Orden">
-          <h1 class="Titulo">My bookstore</h1>
-          <img src="Imagenes/logo.png" width="70" height="75" alt="logo" id="logo">   
-           <div class="buscar"> 
-             <input type="text" placeholder="buscar">
-           </div> 
-            <div class="logitos">
-             <a href="Inicia sesion.html"><img src= "Imagenes/inicia sesion logo.png" alt="Registro" id="iniciasesionlogo"></a> 
-           <img src="Imagenes/carrito logo.png" alt="carro" id="carrito">
-           </div>
+  <header>
+    <div class="big-containerpage">
+      <div class="Orden">
+        <div class="titulo-header">
+          <h1>My bookstore</h1>
+          <img src="Img/logo.png" width="60" height="65" alt="logo" id="logo">
+          <div class="buscar">
+            <input type="text" placeholder="Buscar">
+          </div>
+          <div class="contenedor">
+            <a href="Inicia sesion.html">
+              <i class="fa-solid fa-user" style="color: #334a6e;"></i>
+            </a>
+            <div class="carrito">
+              <i class="fa-solid fa-cart-shopping" style="color: #334a6e;"></i>
+            </div>
+          </div>
         </div>
-        </header>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="Libros.html">LIBROS</a></li>
-                    <li><a href="Mangas.html">MANGAS</a></li>
-                    <li><a href="Top 20.html">TOP 20</a></li>
-                </ul> 
-            </nav>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Libros.html">LIBROS</a></li>
+            <li><a href="Mangas.html">MANGAS</a></li>
+            <li><a href="Formas de envio.html">FORMAS DE ENVIO</a></li>
+            <li> <a href="Contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="DamonSlayer">
+    <h2>Demon Slayer (Edicion Limitada)</h2>
+    <img src="Img/kimetsu box.png" width="400" height="350" alt="DamonSlayerpack">
+    <img src="Img/kimetsu stickers.png" width="400" height="300" alt="DamonSlayerpack">
+  </div>
+  <section class="Mangas-container">
+    <h2 class="titulo3">Mangas</h1>
+      <h2>Shonen</h2>
+      <div class="ShonenManga-Padre">
+        <div class="Shonen">
+          <img src="Img/tokyo ghoul.png" width="190" height="270" alt="tokyoghoul">
+          <h5>Tokyo Ghoul:re #01</h5>
+          <p>$2.300,00</p>
+        </div>
+        <div class="Shonen">
+          <img src="Img/chainsaw.png" width="190" height="270" alt="chainsaw">
+          <h5>Chainsaw Man #1</h5>
+          <p>$2.000,00</p>
+        </div>
+        <div class="Shonen">
+          <img src="Img/haikyu tomo 1.png" width="190" height="270" alt="Haikyu">
+          <h5>Haikyu #1</h5>
+          <p>$2.000,00</p>
+        </div>
+        <div class="Shonen">
+          <img src="Img/kimetsu box.png" width="230" height="220" alt="kimetsupack">
+          <h5>Demon Slayer #23 <br>(Edición limitada)</h5>
+          <p>$6.500,00</p>
+        </div>
+      </div>
+      <div class="load-more" id="load-more-1">Cargar más</div>
+  </section>
+  <section class="Mangas-container">
+       <h2>Yoi/Bl</h2>
+      <div class="BlManga-Padre">
+        <div class="Bl">
+          <img src="Img/sasaki y miyano tomo 3.png" width="190" height="270" alt="sasakiymiyano">
+          <h5>Sasaki y Miyano #3</h5>
+          <p>$2.500,00</p>
+        </div>
+        <div class="Bl">
+          <img src="Img/un extraño en la playa.png" width="190" height="270" alt="unextrañoenlaplaya">
+          <h5>Un extraño <br> en la playa #1</h5>
+          <p>$2.300,00</p>
+        </div>
+        <div class="Bl">
+          <img src="Img/Ten count.png" width="190" height="270" alt="Tencount">
+          <h5>Ten count #1</h5>
+          <p>$2.300,00</p>
+        </div>
+        <div class="Bl">
+          <img src="Img/twilight.png" width="190" height="270" alt="twilight">
+          <h5>Twilight Outfocus</h5>
+          <p>$2.300,00</p>
+        </div>
+      </div>
+      <div class="load-more" id="load-more-2">Cargar más</div>
+  </section>
+  <section class="Mangas-container">
+    <h2>Shojo</h2>
+    <div class="ShojoManga-Padre">
+      <div class="Shojo">
+        <img src="Img/aoha ride tomo 9.png" width="180" height="270" alt="Aoharide">
+        <h5>Aoha ride #9</h5>
+        <p>$2.000,00</p>
+      </div>
+      <div class="Shojo">
+        <img src="Img/historias de amor.png" width="190" height="270" alt="historiasdeamor">
+        <h5>Historias de amor</h5>
+        <p>$4.000,00</p>
+      </div>
+      <div class="Shojo">
+        <img src="Img/Love in focus.png" width="195" height="270" alt="Loveinfocus">
+        <h5>Love in focus #1</h5>
+        <p>$2.500,00</p>
+      </div>
+      <div class="Shojo">
+        <img src="Img/living room.png" width="190" height="270" alt="Livingroom">
+        <h5>Living room #3</h5>
+        <p>$2.000,00</p>
+      </div>
+    </div>
+    <div class="load-more" id="load-more-3">Cargar más</div>
+  </section>
+  <br>
+  <footer class="Footer">
+    <div class="Container-footer">
+      <div class="footer-menu">
+        <div class="Nav-footer">
+          <p class="titulo-Navfooter">
+            Navegación</p>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Libros.html">Libros</a></li>
+            <li><a href="Mangas.html">Mangas</a></li>
+            <li><a href="Formas de envio.html">Formas de envio</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="Pagos-footer">
+          <p class="titulo-footer">
+            Medios de pago</p>
+          <img src="Img/visaimg.png" class="footer-img" width="40" height="25" alt="visa">
+          <img src="Img/mastercard.png" class="footer-img" width="40" height="25" alt="mastercard">
+          <img src="Img/americanexpress.png" class="footer-img" width="40" height="25" alt="americanexpress">
+          <img src="Img/paypal.png" width="40" class="footer-img" height="25" alt="paypal">
+          <img src="Img/banelco.png" width="40" class="footer-img" height="25" alt="banelco">
+          <img src="Img/cabal.png" width="40" class="footer-img" height="25" alt="cabal">
+          <img src="Img/naranja.png" width="40" class="footer-img" height="25" alt="naranja">
+          <img src="Img/mercadopago.png" width="40" class="footer-img" height="25" alt="mercadopago">
+          <img src="Img/pago facil.png" width="40" class="footer-img" height="25" alt="pagofacil">
+          <img src="Img/rapipago.png" width="40" class="footer-img" height="25" alt="rapipago">
+          <img src="Img/cencosud.png" width="40" class="footer-img" height="25" alt="cencosud">
+        </div>
+        <div class="Redes-footer">
+          <p class="titulo-footer">Redes sociales</p>
+          <div class="social-icons">
+            <span class="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </span>
+            <span class="twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+            <span class="youtube">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+            <span class="pinterest">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </span>
+            <span class="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+          </div>
+        </div>
+        <div class="suscripción">
+          <p class="Titulo-suscribite">Boletin Informativo</p>
+          <div class="content">
+            <p> Suscríbete a nuestros boletines ahora y mantente al día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa tu gmail..." id="emailcaja">
+            <button id="Suscribite">Suscribite</button>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Desarrollado por Juana Ortega © 2023 </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/95a8e3466b.js" crossorigin="anonymous"></script>
+  <script src="Scripts/main.js"></script>
+</body>
+
+</html>

@@ -2,106 +2,194 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>My bookstore</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Css/style.css">
+  <title>My bookstore</title>
 </head>
-    <body>
-        <header>
-            <div class="Orden">
-              <h1 class="Titulo">My bookstore</h1>
-              <img src="Imagenes/logo.png" width="70" height="75" alt="logo" id="logo">   
-               <div class="buscar"> 
-                 <input type="text" placeholder="buscar">
-               </div> 
-                <div class="logitos">
-                 <a href="Inicia sesion.html"><img src= "Imagenes/inicia sesion logo.png" alt="Registro" id="iniciasesionlogo"></a> 
-               <img src="Imagenes/carrito logo.png" alt="carro" id="carrito">
-               </div>
+
+<body>
+  <header>
+    <div class="big-containerpage">
+      <div class="Orden">
+        <div class="titulo-header">
+          <h1>My bookstore</h1>
+          <img src="Img/logo.png" width="60" height="65" alt="logo" id="logo">
+          <div class="buscar">
+            <input type="text" placeholder="Buscar">
+          </div>
+          <div class="contenedor">
+            <a href="Inicia sesion.html">
+              <i class="fa-solid fa-user" style="color: #334a6e;"></i>
+            </a>
+            <div class="carrito">
+              <i class="fa-solid fa-cart-shopping" style="color: #334a6e;"></i>
             </div>
-        </header>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="Libros.html">LIBROS</a></li>
-                    <li><a href="Mangas.html">MANGAS</a></li>
-                    <li><a href="Top 20.html">TOP 20</a></li>
-                </ul> 
-            </nav>
-            <section class="Libros container">
-                <h1>Libros</h1>
-                   <h2>Fantasia</h2>
-                   <!-- <div class="Box-container-1"> -->
-                       <div class="FantasiaPadre">
-                        <div class="Fantasia">
-                           <img class="img-fantasia1" src="./Imagenes/percy jackson.png" alt="Percy jackson">
-                           <h5>Percy Jackson y <br> el ladrón del rayo</h5>
-                           <p>6.199,00</p>
-                       </div>
-                           <div class="Fantasia">
-                                <img class="img-fantasia2" src="Imagenes/harry potter y la piedra filosofal.jpg" alt="Harry potter">
-                                   <h5>Harry Potter y <br> la piedra filosofal</h5>
-                                   <p>$5.799,00</p>
-                           </div>
-                           <div class="Fantasia">
-                                <img class="img-fantasia3" src="Imagenes/hopendath.png" alt="Hopendath">
-                                   <h5>Hopendath</h5>
-                                   <p>$7.000,00</p>
-                           </div>
-                           <div class="Fantasia">
-                               <img class="img-fantasia4" src="Imagenes/cazadores de sombras los origenes.jpg" alt="cazadores de sombras los origenes">
-                                   <h5>Ángel mecánico</h5>
-                                   <p>$5.100,00</p>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="load-more" id="load-more-1">Cargar más</div>
-            </section>
-            <section class="Libros container">
-                   <h2>Romance</h2>
-                   <!-- <div class="Box-container-2"> -->
-                       <div class="RomancePadre">
-                        <div class="Romance">
-                           <img class="img-romance1" src="Imagenes/a traves de mi ventana.jpg" alt="A través de mi ventana">
-                           <h5> A través de mi ventana</h5>
-                           <p>6.199,00</p>
-                       </div>
-                           <div class="Romance">
-                                <img class="img-romance2" src="Imagenes/the love hypothesis.jpg" alt="The love hypotesis">
-                                   <h5>The love hypotesis</h5>
-                                   <p>$5.799,00</p>
-                           </div>
-                           <div class="Romance">
-                                <img class="img-romance3" src="Imagenes/marfil.png" alt="Marfil">
-                                   <h5>Marfil</h5>
-                                   <p>$7.899,00</p>
-                           </div>
-                           <div class="Romance">
-                               <img class="img-romance4" src="Imagenes/dimelo bajito.jpg" alt="Dimelo bajito">
-                                   <h5>Dimelo bajito</h5>
-                                   <p>$7.899,00</p>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="load-more" id="load-more-2">Cargar más</div>
-            </section>
-
-
-
-
+          </div>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Libros.html">LIBROS</a></li>
+            <li><a href="Mangas.html">MANGAS</a></li>
+            <li><a href="Formas de envio.html">FORMAS DE ENVIO</a></li>
+            <li> <a href="Contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <br>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+  </header>
+  <div class="All-Libro-container">
+    <section class="Libros-container">
+      <h2 class="titulo2">Libros</h1>
+        <h2>Fantasia</h2>
+        <div class="FantasiaPadre">
+          <div class="Fantasia">
+            <img src="Img/percy jackson.png" width="190" height="275" alt="Percy jackson">
+            <h5>Percy Jackson y <br> el ladrón del rayo</h5>
+            <p>6.199,00</p>
+          </div>
+          <div class="Fantasia">
+            <img src="Img/harry potter y la piedra filosofal.jpg" width="187" height="270" alt="Harry potter">
+            <h5>Harry Potter y <br> la piedra filosofal</h5>
+            <p>$5.799,00</p>
+          </div>
+          <div class="Fantasia">
+            <img src="Img/hopendath.png" width="190" height="270" alt="Hopendath">
+            <h5>Hopendath</h5>
+            <p>$7.000,00</p>
+          </div>
+          <div class="Fantasia">
+            <img src="Img/cazadores de sombras los origenes.jpg" width="190" height="270" alt="cazadores">
+            <h5>Ángel mecánico</h5>
+            <p>$5.100,00</p>
+          </div>
+        </div>
+        <div class="load-more" id="load-more-1">Cargar más</div>
+    </section>
+    <section class="Libros-container">
+      <h2>Romance</h2>
+      <!-- <div class="Box-container-2"> -->
+      <div class="RomancePadre">
+        <div class="Romance">
+          <img src="Img/a traves de mi ventana.jpg" width="193" height="270" alt="A través de mi ventana">
+          <h5> A través de mi ventana</h5>
+          <p>6.199,00</p>
+        </div>
+        <div class="Romance">
+          <img src="Img/the love hypothesis.jpg" width="193" height="270" alt="The love hypotesis">
+          <h5>The love hypotesis</h5>
+          <p>$5.799,00</p>
+        </div>
+        <div class="Romance">
+          <img src="Img/marfil.png" width="193" height="270" alt="Marfil">
+          <h5>Marfil</h5>
+          <p>$7.899,00</p>
+        </div>
+        <div class="Romance">
+          <img src="Img/dimelo bajito.jpg" width="193" height="270" alt="Dimelo bajito">
+          <h5>Dimelo bajito</h5>
+          <p>$7.899,00</p>
+        </div>
+      </div>
+      <div class="load-more" id="load-more-2">Cargar más</div>
+    </section>
+    <section class="Libros-container">
+      <h2>Ficción</h2>
+      <div class="FiccionPadre">
+        <div class="Ficcion">
+          <img width="192" height="265" src="Img/clover.jpg" alt="clover">
+          <h5>Clover</h5>
+          <p>$7.505,00</p>
+        </div>
+        <div class="Ficcion">
+          <img src="Img/fable.jpg" width="183" height="262" alt="fable">
+          <h5>Fable</h5>
+          <p>$6.990,00</p>
+        </div>
+        <div class="Ficcion">
+          <img src="Img/strange.webp" width="187" height="265" alt="strange">
+          <h5>Strange</h5>
+          <p>$7.140,00</p>
+        </div>
+        <div class="Ficcion">
+          <img src="Img/scarlet.webp" width="188" height="265" alt="scarlet">
+          <h5>Scarlet</h5>
+          <p>$6.499,00</p>
+        </div>
+      </div>
+    <div class="load-more" id="load-more-2">Cargar más</div>
+    </section>
+  </div>
+  <footer class="Footer">
+    <div class="Container-footer">
+      <div class="footer-menu">
+        <div class="Nav-footer">
+          <p class="titulo-Navfooter">
+            Navegación</p>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Libros.html">Libros</a></li>
+            <li><a href="Mangas.html">Mangas</a></li>
+            <li><a href="Formas de envio.html">Formas de envio</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="Pagos-footer">
+          <p class="titulo-footer">
+            Medios de pago</p>
+          <img src="Img/visaimg.png" class="footer-img" width="40" height="25" alt="visa">
+          <img src="Img/mastercard.png" class="footer-img" width="40" height="25" alt="mastercard">
+          <img src="Img/americanexpress.png" class="footer-img" width="40" height="25" alt="americanexpress">
+          <img src="Img/paypal.png" width="40" class="footer-img" height="25" alt="paypal">
+          <img src="Img/banelco.png" width="40" class="footer-img" height="25" alt="banelco">
+          <img src="Img/cabal.png" width="40" class="footer-img" height="25" alt="cabal">
+          <img src="Img/naranja.png" width="40" class="footer-img" height="25" alt="naranja">
+          <img src="Img/mercadopago.png" width="40" class="footer-img" height="25" alt="mercadopago">
+          <img src="Img/pago facil.png" width="40" class="footer-img" height="25" alt="pagofacil">
+          <img src="Img/rapipago.png" width="40" class="footer-img" height="25" alt="rapipago">
+          <img src="Img/cencosud.png" width="40" class="footer-img" height="25" alt="cencosud">
+        </div>
+        <div class="Redes-footer">
+          <p class="titulo-footer">Redes sociales</p>
+          <div class="social-icons">
+            <span class="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </span>
+            <span class="twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+            <span class="youtube">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+            <span class="pinterest">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </span>
+            <span class="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+          </div>
+        </div>
+        <div class="suscripción">
+          <p class="Titulo-suscribite">Boletin Informativo</p>
+          <div class="content">
+            <p> Suscríbete a nuestros boletines ahora y mantente al día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa tu gmail..." id="emailcaja">
+            <button id="Suscribite">Suscribite</button>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Desarrollado por Juana Ortega © 2023 </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/95a8e3466b.js" crossorigin="anonymous"></script>
+  <script src="Scripts/main.js"></script>
 
-<br>
-<br>
-<br>
-<footer>
-    <p>no copyright - Juana Ortega </p>
-</footer>
+
+</body>
 
 </html>
