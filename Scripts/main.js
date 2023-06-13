@@ -1,4 +1,3 @@
-
 let slider = document.querySelector(".slider-container")
 let sliderIndividual = document.querySelectorAll(".content-slider")
 let contador = 1;
