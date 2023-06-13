@@ -1,6 +1,6 @@
 # BA2.0 Juana Ortega
-Primer proyecto del curso BA 2.0 
-Link al deploy: https://master--radiant-pithivier-e5d900.netlify.app/index.html
+Primer proyecto del curso BA 2.0 <br> <br>
+Link al deploy de la página: https://master--radiant-pithivier-e5d900.netlify.app/index.html
 
 La elección de la página fue de tienda de libros ya que son las tiendas que más visito y se me hizo más facil explayarme con esa tematica para el proyecto.
  <br> Primeras dificultades en css: Las clases y los divs luego de varios errores lo comprendi al igual que las estructuras en html con las etiquetas.
